@@ -14,15 +14,19 @@ function HowItWorksSection() {
   const [error, setError] = useState(null)
 
   // Section animation
-  const [sectionRef, isSectionVisible] = useScrollAnimation(0.1)
-
-  // Create animation hooks for each feature (called at top level)
-  const featureAnimations = features.map(() => useScrollAnimation(0.3))
-
-  useEffect(() => {
-    loadFeatures()
-  }, [])
-
+  const [sectionRef, isSectionVisible] = useScrollAnimation(0.3)
+  
+  // Individual scroll animation hooks - must be called at top level
+  const animation1 = useScrollAnimation(0.3)
+  const animation2 = useScrollAnimation(0.3)
+  const animation3 = useScrollAnimation(0.3)
+  const animation4 = useScrollAnimation(0.3)
+  const animation5 = useScrollAnimation(0.3)
+  const animation6 = useScrollAnimation(0.3)
+  
+  // Array of animations for easy access
+  const featureAnimations = [animation1, animation2, animation3, animation4, animation5, animation6]
+  
   async function loadFeatures() {
     try {
       setLoading(true)
@@ -36,6 +40,10 @@ function HowItWorksSection() {
       setLoading(false)
     }
   }
+
+  useEffect(() => {
+    loadFeatures()
+  }, [])
 
   if (loading) {
     return (
