@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 1,
+    "headline": "Uncover Tomorrow's Trends, Today.",
+    "body": "Don't just follow the conversation—lead it. Our AI constantly scans the digital horizon across TikTok, X (Twitter), Instagram, and more to identify emerging topics, sounds, and hashtags before they go mainstream. See the wave forming and get your surfboard ready.",
+    "animationType": "slideInLeft",
+    "imageUrl": "/images/trend-discovery.svg"
+  },
+  {
+    "Id": 2,
+    "headline": "Turn a Trend into Your Masterpiece.",
+    "body": "Knowing the trend is only half the battle. SocialTrends gives you the creative spark to capitalize on it. Instantly generate post ideas, video scripts, and compelling copy tailored to any trend. Go from \"What should I post?\" to \"Which great idea should I post first?\" in seconds.",
+    "animationType": "slideInRight",
+    "imageUrl": "/images/content-creation.svg"
+  },
+  {
+    "Id": 3,
+    "headline": "One Click. Every Channel. Perfect Timing.",
+    "body": "Stop the endless cycle of copy-pasting and logging into different apps. With SocialTrends, you can publish your perfectly crafted content to all your social platforms from one central hub. Schedule your posts for peak engagement and watch your influence grow while you focus on what you do best.",
+    "animationType": "slideInLeft",
+    "imageUrl": "/images/multi-platform.svg"
+  }
+]

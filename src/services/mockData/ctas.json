@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 1,
+    "text": "Start Trending for Free",
+    "href": "#signup",
+    "variant": "primary",
+    "trackingId": "hero-primary-cta"
+  },
+  {
+    "Id": 2,
+    "text": "See How It Works",
+    "href": "#how-it-works",
+    "variant": "secondary",
+    "trackingId": "hero-secondary-cta"
+  },
+  {
+    "Id": 3,
+    "text": "→ Discover your first trend now",
+    "href": "#signup",
+    "variant": "text",
+    "trackingId": "final-text-cta"
+  }
+]

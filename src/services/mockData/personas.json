@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 1,
+    "type": "creators",
+    "headline": "Be Early. Be Seen. Be Shared.",
+    "body": "Find your next viral video idea before anyone else. Spend less time searching for trends and more time creating content that connects and captivates your audience.",
+    "icon": "Video"
+  },
+  {
+    "Id": 2,
+    "type": "marketers",
+    "headline": "Make Culture Your Superpower.",
+    "body": "Arm your brand with real-time market intelligence. Craft campaigns that are culturally relevant, resonate deeply, and drive results.",
+    "icon": "TrendingUp"
+  },
+  {
+    "Id": 3,
+    "type": "founders",
+    "headline": "Punch Above Your Weight.",
+    "body": "Understand the social landscape, engage with your community on topics they care about, and build brand authority—without needing a massive team.",
+    "icon": "Rocket"
+  }
+]
